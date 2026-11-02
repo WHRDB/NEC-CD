@@ -1,4 +1,4 @@
-# NEC-CD: Reliability-Aware Negative-Evidence Learning and Calibration for Image-Level Weakly Supervised Remote Sensing Change Detection
+# NEC-CD: Negative-Evidence Calibration for Weakly Supervised Remote Sensing Change Detection
 
 ## News 📢
 
