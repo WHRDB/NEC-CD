@@ -15,7 +15,6 @@
 - [Installation 🛠️](#installation-️)
 - [Training 🏋️](#training-️)
 - [Inference 🧪](#inference-)
-- [Code, Data and Checkpoints ⬇️](#code-data-and-checkpoints-️)
 - [License 🔑](#license-)
 - [Citation 📚](#citation-)
 
@@ -95,12 +94,6 @@ Other implementation details, including software dependency versions and complet
 ## Inference 🧪
 
 **Temporarily unavailable.** Inference scripts, pretrained model loading instructions, and evaluation commands will be provided in a future update.
-
-## Code, Data and Checkpoints ⬇️
-
-- **Source code:** Not publicly available at the current stage. It can be provided to reviewers for verification during the peer-review process upon request.
-- **Datasets:** The six datasets used in our experiments are conventional public remote sensing change detection datasets. Dataset links and the exact experimental data organization will be added in a future update.
-- **Checkpoints:** Experimental weights will be released in a future update.
 
 ## License 🔑
 
