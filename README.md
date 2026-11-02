@@ -10,7 +10,6 @@
 - [News 📢](#news-)
 - [Introduction 📄](#introduction-)
 - [Framework Overview 🧩](#framework-overview-)
-- [Method Highlights 🔍](#method-highlights-)
 - [Datasets 🗂️](#datasets-️)
 - [Experimental Setting ⚙️](#experimental-setting-️)
 - [Installation 🛠️](#installation-️)
@@ -45,16 +44,6 @@ The overall framework of NEC-CD is illustrated below.
 <p align="center">
   <em>Overall framework of NEC-CD.</em>
 </p>
-
-The framework consists of three main parts: negative-evidence-guided response learning, EMA teacher-guided feature learning, and reliability-aware inference calibration.
-
-## Method Highlights 🔍
-
-- **Reliability-aware negative evidence:** NEC-CD distinguishes label-verified negatives from uncertain predicted negative evidence and uses each according to its reliability.
-- **Response-level constraints:** Unchanged image pairs constrain normalized change activations and sampled raw change scores, suppressing spurious responses at both relative and absolute levels.
-- **EMA teacher-guided feature learning:** An EMA teacher selects high-confidence, cross-view-consistent change anchors. Student features are pulled toward same-location teacher targets and separated from unchanged-pair features.
-- **Appearance-aware inference calibration:** Predicted unchanged-class responses in changed pairs are treated as uncertain counter-evidence. Their suppressive influence is modulated by local bitemporal photometric consistency.
-- **Pseudo-label generation:** Calibrated scores are thresholded under image-level label constraints to generate pixel-level pseudo-labels for subsequent training.
 
 ## Datasets 🗂️
 
